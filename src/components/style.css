@@ -1,0 +1,424 @@
+/* Component Navbar head-image (start) */
+
+.face {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.menu-body {
+    position: relative;
+}
+
+/* Component Navbar head-image (end) */
+
+/* Component NavbarModal head-image (start) */
+.modal-content > .modal-header {
+    border: none;
+    margin: 40px 0px 0px 15%;
+}
+.modal {
+    background-color: white; 
+}
+.modal .modal-content {
+    border-left: 1px solid black;
+}
+.modal .modal-dialog {
+    width: 70%;
+    margin: 0; 
+}
+.modal-body {
+    margin: 54px 0px 100px 15%;
+}
+.img-modal {
+    width: 25px;
+    height: 25px;
+    margin-right: 20%;
+}
+.logo-modal {
+    font-size: 1.3rem;
+}
+.font-text {
+    font-size: 1rem;
+}
+.nav-item {
+    margin-bottom: 20px;
+}
+.footer-modal { 
+    background-color: #000000;
+}
+.footer-menu {
+    margin-bottom: 20px;
+}
+.footer-menu-modal li {
+    margin-bottom: 10px;
+}
+.footer-menu-modal {
+    margin-top: 80px;
+}
+/* .footer-modal .box-img {
+    margin-left: 13%;
+} */
+.footer-modal .box-img-modal img {
+    margin: 20px 0px 25px 13%;
+}
+
+
+
+/* Component NavbarModal head-image (end) */
+
+/* Component NavbarMenu head-image (start) */
+.popup-menus {
+    background-color: #f8f9fa; 
+    position: absolute  ;
+    z-index: 1;  
+}
+.popup-menus ul{
+    margin: 3px 95px 18px 42px;
+}
+.popup-menus li{
+    margin-top: 10px;
+}
+
+/* Component NavbarMenu head-image (end) */
+
+/* Component Header head-image (start) */
+.head-image{
+    color:white;
+    background-image: url("../images/river.jpg");
+    height: 560px;
+    background-repeat: no-repeat;
+    background-position: 30% center;
+}
+.head-image-text {
+    margin: 156px 15%;
+    width: 80%;
+}
+.head-image-text > button {
+    width: 10rem;
+    font-size: 0.600rem;
+}
+.head-image-text h1 {
+    font-size: 2rem;
+}
+.head-image-text h2 {
+    font-size: 1.5 rem;
+}
+.head-image-text hr {
+    border-top: 1px solid #8c8b8b;
+    border-bottom: 1px solid #fff;
+} 
+@media screen and (min-width: 660px){
+    .head-image-text {
+        margin: 156px 15%;
+        width: 80%;
+    }
+    .head-image-text h1 {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 660px){
+    /* .head-image-text {
+        margin: 60px 0%;
+        width: 90%;
+    } */
+}
+/* Component Header head-image (end) */
+
+/* Component Header head-more-news (start) */
+.head-more-news {
+    margin: 80px 15%;
+    width: 70%;
+    position: relative;
+}
+.head-more-news h1 {
+    font-size: 2rem;
+}
+.head-more-news h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fa6980;
+}
+.head-more-news h3 {
+    font-size: 1.3rem;
+}
+.head-more-news p {
+    color: #b2b8be;
+    margin-bottom: 0px;
+}
+.head-more-news span {
+    color: #b2b8be;
+    font-size: 13px;
+}
+
+.block-text {
+    margin-top: 30px;
+}
+
+.head-more-news hr {
+    border-top: 1px solid #dad2d2;
+    border-bottom: 1px solid #ded4d4;
+    margin: 30px 0px 30px 0px;
+}
+.head-more-news .arrow {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top:0px;
+}
+.head-more-news .arrow:nth-child(2){
+    right: 10%;
+}
+.head-more-news .arrow:nth-child(3){
+    right: 0%;
+}
+@media screen and (min-width: 575px) and (max-width: 855px){
+    .head-more-news {
+        width: 90%;
+    }
+    .head-more-news h1 {
+        font-size: 1.5rem;
+    }
+    .head-more-news .arrow {
+        top:-2px;
+        font-size: 19px;
+    }
+}
+
+/* Component Header head-more-news (end) */
+
+
+/* Component Header trending-box (start) */
+.trending-box-title {
+    position: relative;
+}
+.trending-box-title .arrow {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top:0px;
+}
+.trending-box-title .arrow:nth-child(2){
+    right: 5%;
+}
+.trending-box-title .arrow:nth-child(3){
+    right: 0%;
+} 
+.trending-box h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0% 0px 2% 0px;
+    padding: 2% 0px 0% 0px;
+}
+.trending-box h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color:black;
+}
+.trending-box-content img {
+    width: 100%;
+    height: 170px;
+    border-radius: 5px 5px 0px 0px;
+}
+.trending-box-content div {
+    padding: 6% 0px 8% 7%;
+    color: #b2b8be;
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+}
+.trending-box-content p {
+    font-size: 14px; 
+}
+.trending-box-content span {
+    font-size: 13px;
+}
+
+/* Component Header trending-box (end) */
+
+
+/* Component Happening trending-box (start) */
+.happening-title h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2% 0px 2% 0px;
+}
+.happening-title .arrow {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top:0px;
+}
+.happening-title .arrow:nth-child(2){
+    right: 5%;
+}
+.happening-title .arrow:nth-child(3){
+    right: 0%;
+} 
+.heppening-large {
+    /* height: 400px; */
+    height: 50%;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position:80% center;
+    border-radius: 5px; 
+}
+.city {
+    background-image: url("../images/manh-bridge.jpg");
+}
+.travel {
+    background-image: url("../images/forest2.jpg");
+}
+.heppening-large h1 {
+    font-size: 0.8rem;
+    color: white;
+    padding-top: 40px;
+    margin-left: 6%;
+}
+.heppening-large-text {
+    color: white;
+    margin: 21% 8% 0% 6%;
+
+}
+.heppening-small img {
+    width: 100%;
+    /* height: 180px; */
+    height: 70%;
+    border-radius: 8px ;
+}
+.heppening-line {
+    border-top: 1px solid #ebeded;
+    border-bottom: 1px solid #ebeded;
+    margin: 30px 0px 30px 0px;
+}
+.happening-contant {
+    height: 250px;
+    margin-top: 20px;
+}
+
+.happening-contant h2 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.happening-contant span {
+    color: #b2b8be;
+    font-size: 12px;
+}
+.text-line {
+    text-decoration: underline;
+}
+@media screen and (max-width: 575px){
+    .heppening-small {
+        margin-top: 12%;
+        color:red;
+    }
+}
+
+/* Component Happening trending-box (end) */
+
+
+/* Component Footer trending-box (start) */
+.footer {
+    background-color: #000000;
+    height: 170px;
+}
+.footer-content {
+    padding-top: 3%;
+}
+.footer-input {
+    width: 100%;
+    height: 45px;
+    background-color: #000000;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-input {
+    padding-left: 20px;
+} 
+/* input[type="text"]::-moz-placeholder {
+    color: white;
+}
+input[type="text"]::-webkit-input-placeholder { color: white; }
+input[type="text"]:-ms-input-placeholder { color: white; }
+input[type="text"]::-ms-input-placeholder { color: white; }
+input[type="text"]::placeholder { color: white; } */
+.footer-logo h1 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color:white;
+}
+.footer-menu {
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.footer-menu > ul > li {
+    margin-bottom: 3px;
+}
+.img {
+    width: 23px;  
+}
+.serch-box {
+    position: relative;
+}
+.img-send {
+    width: 20px;
+    position: absolute;
+    top: 11px;
+    right: 9%; 
+}
+.serch-box p {
+    color:white;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.box-img {
+    margin-left: 20px;
+}
+@media screen and (min-width: 575px) and (max-width: 1166px){
+    .footer-menu {
+        font-size: 0.7rem;
+    }
+    .footer-logo h1 {
+        font-size: 0.8rem;
+    }
+    .img {
+        width: 19px;  
+    }
+    .footer-menu:nth-child(1) {
+        margin-left: 25%;
+    }
+    .footer-menu:nth-child(3) {
+        display: none;
+    }
+    .footer-content {
+        padding-top: 4%;
+    }
+    .img-send {
+        right: 11%;
+    }
+}
+@media screen and (max-width: 880px) {
+    .footer-menu:nth-child(2) {
+        display: none;
+    }
+
+    .footer-menu:nth-child(1) {
+        margin-left: 50%;
+    }
+
+    .footer-content {
+        padding-top: 6%;
+    }
+    .img-send {
+        right: 18%;
+    }
+}
+
+/* Component Footer trending-box (end) */
