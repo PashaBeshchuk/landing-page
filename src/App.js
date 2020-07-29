@@ -12,7 +12,7 @@ import NavbarMenu from './components/NavbarMenu';
 function App(props) {
   const { width } = props.size
   return (
-    <div>
+    <div className="App">
       <Navbar/>
       <Header/>
       <div className="container col-12 box-site-content"> 
